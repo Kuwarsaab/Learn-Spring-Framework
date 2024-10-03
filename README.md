@@ -74,7 +74,7 @@ Feel free to modify the code and experiment with different configurations.
 
 You are welcomed to contribute in the repository. For contributions in the repository, Do read Contribution Guidelines.
 
-- [Contribution Guidelines](https://github.com/Kuwarsaab/Learn-Spring-Framework/new/master/contributing.md)
+- [Contribution Guidelines](https://github.com/indrakishore/Learn-Spring-Framework/blob/master/CONTRIBUTING.md)
 
 
 ## Moderator
