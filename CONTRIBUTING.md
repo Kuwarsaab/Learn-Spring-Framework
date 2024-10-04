@@ -38,6 +38,37 @@ Thank you for considering contributing to the **Learn-Spring-Framework** project
 
 ---
 
+## Hacktoberfest Contributions
+
+We are taking part in [Hacktoberfest 11](https://hacktoberfest.com/)!
+
+Before you start to contribute to our project in order to satisfy [Hacktoberfest requirements](https://hacktoberfest.com/participation/#contributors), please bare in mind the following:
+
+* There is not a Hacktoberfest t-shirt this year [(see their FAQ)](https://hacktoberfest.com/participation/#faq).
+* There is not an infinite opportunity to contribute to the Learn-Spring-Framework project.
+
+### Hacktoberfest Specific Contribution rules
+
+As Hacktoberfest attracts a lot of contributors (which is awesome), it does require a more rigid and strictly enforced set of guidelines than the average contribution.
+
+These are as follows:
+
+1. Typo fixes will not count (by themselves).
+
+Whilst fixing typos is a great thing to do, lets bundle them in with actual contributions if we see them!
+
+2. The same basic rules apply.
+
+- Content must be in English.
+- Maximum of 8 links per topic.
+- Follow the below style guide for content.
+
+Contributions to the project that meet these requirements will be given the label `hacktoberfest-accepted` and merged, contributions that do not meet the requirements will simply be closed.
+
+Any attempts at spam PRs will be given the `spam` tag. If you recieve 2 `spam` tags against you, you will be [disqualified from Hacktoberfest](https://hacktoberfest.com/participation/#spam).
+
+---
+
 ### How to Contribute
 1. **Reporting Bugs**
    If you find a bug, please create an issue on GitHub with the following information:
