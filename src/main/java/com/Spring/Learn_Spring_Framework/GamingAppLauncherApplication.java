@@ -6,6 +6,8 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Arrays;
+
 @Configuration
 @ComponentScan("com.Spring.Learn_Spring_Framework.game")
 public class GamingAppLauncherApplication {
@@ -14,5 +16,6 @@ public class GamingAppLauncherApplication {
                 (GamingAppLauncherApplication.class);
         context.getBean(GamingConsole.class).up();
         context.getBean(GameRunner.class).run();
+
     }
 }
