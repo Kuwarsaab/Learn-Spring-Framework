@@ -1,15 +1,18 @@
 package com.Spring.Learn_Spring_Framework.game;
 
-import java.sql.SQLOutput;
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
 
-public class GameRunner {
+import java.sql.SQLOutput;
+@Component
+public class GameRunner{
 //    MarioGame game;
     private GamingConsole game;
 
 //    public GameRunner(MarioGame game){
 //        this.game = game;
 //    }
-    public GameRunner(GamingConsole game){
+    public GameRunner(@Qualifier("SuperContraQualifier") GamingConsole game){
         this.game = game;
     }
 
