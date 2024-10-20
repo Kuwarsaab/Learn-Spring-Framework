@@ -86,7 +86,7 @@ public class FriendsListServiceImpl implements FriendsListService {
         if (StringUtils.isBlank(request.getName())) {
             throw new FriendListException(FriendsListErrorCodes.INVALID_REQUEST, "Name cannot be empty");
         }
-        if (Objects.isNull(request.getAge())) {
+        if (request.getAge() == 0) {
             throw new FriendListException(FriendsListErrorCodes.INVALID_REQUEST, "Age cannot be null");
         }
         if (Objects.isNull(request.getEmail())) {
